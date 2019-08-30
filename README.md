@@ -1,5 +1,4 @@
-#C/C++ TJSON
-<H1>C/C++ json parser util for running in long time.</H1><br>
+<H1>CCJSON - C/C++ json parser util for running in long time.</H1><br>
 Author: Trinhdc<br>
 Email:  rymrebooks@gmail.com<br>
 Donate  @ paypal: rymrebooks@gmail.com <br>
