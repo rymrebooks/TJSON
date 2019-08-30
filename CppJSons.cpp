@@ -1,4 +1,4 @@
-// CJsons.cpp : Defines the entry point for the console application.
+// CppJSons.cpp : Defines the entry point for the console application.
 //
 
 #include "stdafx.h"
