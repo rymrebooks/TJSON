@@ -1,7 +1,6 @@
 <H1>CppJSON - C/C++ json parser util for running in long time.</H1><br>
 Author: Trinhdc<br>
 Email:  rymrebooks@gmail.com<br>
-Donate  @ paypal: rymrebooks@gmail.com <br>
 License: BSD<br>
 Version: 1.0.0.0<br>
 Target:<br><ul>
