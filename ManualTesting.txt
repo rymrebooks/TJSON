@@ -1,0 +1,386 @@
+/*
+
+Test file, wait for reading in file: Debug.json
+string json size: 244
+
+Parsing is sucessful. ----------------------------------------------------------------------------------------------------- Recompare is TRUE;
+cOutPut: ...
+
+iOutSize: 241
+@TAllocator, iBuffResizing: 1 iAllocations: 77 iDeallocations: 0 Count: 1419 Size: 65536
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [s]
+
+Stringify, iSize: 241:
+{"menu": {"id": "file", "popup": {"menuitem": [{"value": "New", "onclick": "CreateNewDoc()"}, {"value": "Open", "onclick": "OpenDoc()"}, {"value": "Close", "onclick": "CloseDoc()"}]}, "value": "File"}, "z": [1234, "seconditem", "my value"]}
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [g]
+
+            Enter key: z
+
+            The key is existing. Now your working node is changed
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [s]
+
+Stringify, iSize: 38:
+"z": [1234, "seconditem", "my value"]
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [r]
+
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [g]
+
+            Enter key: menu
+
+            The key is existing. Now your working node is changed
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [s]
+
+Stringify, iSize: 200:
+"menu": {"id": "file", "popup": {"menuitem": [{"value": "New", "onclick": "CreateNewDoc()"}, {"value": "Open", "onclick": "OpenDoc()"}, {"value": "Close", "onclick": "CloseDoc()"}]}, "value": "File"}
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [r]
+
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [a]
+
+            Enter key: a1
+
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [s]
+
+Stringify, iSize: 251:
+{"a1": [], "menu": {"id": "file", "popup": {"menuitem": [{"value": "New", "onclick": "CreateNewDoc()"}, {"value": "Open", "onclick": "OpenDoc()"}, {"value": "Close", "onclick": "CloseDoc()"}]}, "value": "File"}, "z": [1234, "seconditem", "my value"]}
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [g]
+
+            Enter key: a1
+
+            The key is existing. Now your working node is changed
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [s]
+
+Stringify, iSize: 9:
+"a1": []
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [j]
+
+            Enter key: item1
+
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [s]
+
+Stringify, iSize: 16:
+"a1": ["item1"]
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [j]
+
+            Enter key: item2
+
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [s]
+
+Stringify, iSize: 25:
+"a1": ["item1", "item2"]
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [j]
+
+            Enter key: item0
+
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [s]
+
+Stringify, iSize: 34:
+"a1": ["item1", "item2", "item0"]
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [g]
+
+            Enter key: item1
+
+            The key is existing. Now your working node is changed
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [s]
+
+Stringify, iSize: 8:
+"item1"
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [r]
+
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [r]
+
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [s]
+
+Stringify, iSize: 276:
+{"a1": ["item1", "item2", "item0"], "menu": {"id": "file", "popup": {"menuitem": [{"value": "New", "onclick": "CreateNewDoc()"}, {"value": "Open", "onclick": "OpenDoc()"}, {"value": "Close", "onclick": "CloseDoc()"}]}, "value": "File"}, "z": [1234, "seconditem", "my value"]}
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [r]
+
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [r]
+
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [s]
+
+Stringify, iSize: 276:
+{"a1": ["item1", "item2", "item0"], "menu": {"id": "file", "popup": {"menuitem": [{"value": "New", "onclick": "CreateNewDoc()"}, {"value": "Open", "onclick": "OpenDoc()"}, {"value": "Close", "onclick": "CloseDoc()"}]}, "value": "File"}, "z": [1234, "seconditem", "my value"]}
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [g]
+
+            Enter key: a1
+
+            The key is existing. Now your working node is changed
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [s]
+
+Stringify, iSize: 34:
+"a1": ["item1", "item2", "item0"]
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [a]
+
+            Enter key: sa1
+
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [s]
+
+Stringify, iSize: 45:
+"a1": ["item0", "item1", "item2", "sa1": []]
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [g]
+
+            Enter key: sa1
+
+            The key is existing. Now your working node is changed
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [s]
+
+Stringify, iSize: 10:
+"sa1": []
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [j]
+
+            Enter key: subitem1
+
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [s]
+
+Stringify, iSize: 20:
+"sa1": ["subitem1"]
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [j]
+
+            Enter key: subitem2
+
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [s]
+
+Stringify, iSize: 32:
+"sa1": ["subitem1", "subitem2"]
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [r]
+
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [s]
+
+Stringify, iSize: 309:
+{"a1": ["item0", "item1", "item2", "sa1": ["subitem1", "subitem2"]], "menu": {"id": "file", "popup": {"menuitem": [{"value": "New", "onclick": "CreateNewDoc()"}, {"value": "Open", "onclick": "OpenDoc()"}, {"value": "Close", "onclick": "CloseDoc()"}]}, "value": "File"}, "z": [1234, "seconditem", "my value"]}
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [g]
+
+            Enter key: a1
+
+            The key is existing. Now your working node is changed
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [s]
+
+Stringify, iSize: 67:
+"a1": ["item0", "item1", "item2", "sa1": ["subitem1", "subitem2"]]
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [g]
+
+            Enter key: sa1
+
+            The key is existing. Now your working node is changed
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [s]
+
+Stringify, iSize: 32:
+"sa1": ["subitem1", "subitem2"]
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str: [r]
+
+
+[q] -> quit [p] -> prints [e] -> check exit key of crr node [v] -> value of a key
+[t] -> type of node by key [c] -> count of item in crr node [u] -> value of a element. [d] -> update value of key or id
+[y] -> plus more json for crr node [g] -> get node with key [s] -> show stringify [f] -> save to file
+[r] -> Restore Root [a] -> add array [j] -> AddArrItem [o] -> add object [i] -> add key/value
+[m] -> remove item. Enter str:*/
