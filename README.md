@@ -1,4 +1,4 @@
-<H1>CppJSON - C/C++ json parser for running in long time.</H1><br>
+<H1>CTJSON - C/C++ json parser for running in long time.</H1><br>
 Author: Trinhdc<br>
 Email Donate:  rymrebooks@gmail.com @ paypal !<br>
 License: BSD<br>
